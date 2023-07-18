@@ -1,0 +1,68 @@
+.experience__container{
+    display: grid;
+    grid-template-columns: 0.8fr ;
+    gap:2rem ;
+    margin-left: 17rem;
+}
+.experience__container > div{
+    background: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+.experience__container > div:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+.experience__container > div h3{
+    text-align: center;
+    margin-bottom: 2rem;
+    color:var(--color-primary) ;
+}
+.experience__content{
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 6rem;
+    row-gap: 2rem;
+    column-gap: 3rem;
+}
+
+.experience__details{
+    display: flex;
+    gap: 1rem;
+}
+.icons{
+    margin-top: 6px;
+    color: var(--color-primary);
+    font-size: 1.3rem;
+}
+
+/* ===============Media Queries (Medium Devices)======= */
+
+@media screen and (max-width:1024px) and (min-width:600px){
+    .experience__container{
+        margin-left: 10rem;
+        grid-template-columns: 1fr ;
+       
+    }
+    .experience__container > div{
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+    .experience__content{
+        margin-left: 1rem;
+    }
+    .experience{
+        margin-top: 16rem;
+    }
+        }
+        
+/* ===============Media Queries (Small Devices)======= */
+        
+        @media screen and ( max-width:800px) and (min-width:350px){
+        
+        }
