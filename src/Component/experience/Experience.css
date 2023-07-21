@@ -64,5 +64,21 @@
 /* ===============Media Queries (Small Devices)======= */
         
         @media screen and ( max-width:800px) and (min-width:350px){
-        
+            .experience__container{
+                width: 100%;
+                 margin-left:0.2rem ; 
+               justify-content: center;
+               gap: 1rem;
+               
+            }
+            .experience__content{
+                
+                margin-left: 4rem;
+                grid-template-columns: 0.5fr ;
+            }
+            .experience__container > div{
+                
+                width: 100%;
+                padding: 2rem 1rem;
+            }
         }

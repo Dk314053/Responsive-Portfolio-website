@@ -4,9 +4,8 @@ import Header from './Component/header/Header';
 import Navbar from './Component/nav/Navbar';
 import About from './Component/about/About';
 import Experience from './Component/experience/Experience';
-import Services from './Component/services/Services';
-import Portfolio from './Component/portfolio/Portfolio';
-import Testimonial from './Component/Testimonials/Testimonial';
+import Project from './Component/projects/Project';
+
 import Contact from './Component/contact/Contact';
 import Footer from './Component/footer/Footer';
 
@@ -18,9 +17,7 @@ function App() {
     <Navbar/>
     <About/>
     <Experience/>
-    <Services/>
-    <Portfolio/>
-    <Testimonial/>
+    <Project/>
     <Contact/>
     <Footer/>
     </div>

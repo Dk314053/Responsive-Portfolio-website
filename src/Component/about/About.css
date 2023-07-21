@@ -84,8 +84,8 @@ font-size: 0.95rem;
     margin: 1rem 0 1.5rem;
 }
 .about{
-    margin-top: 14
-    rem;
+    margin-top: 16rem;
+   
 }
     }
     
@@ -109,5 +109,8 @@ font-size: 0.95rem;
 .about__container{
     grid-template-columns: 1fr;
     gap: 0;
+}
+.about{
+    margin-top: -3.4rem;
 }
     }

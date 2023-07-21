@@ -20,7 +20,7 @@
   --transition:all 400ms ease;
   --container-width-lg:75%;
   --container-width-md:75%;
-  --container-width-ms:75%;
+  --container-width-sm:75%;
 }
 html{
   scroll-behavior: smooth;
@@ -49,7 +49,7 @@ h1{
 }
 section{
   margin-top: 8rem;
-  height: 110vh;
+
 }
 section > h2, section > h5{
     text-align: center;
